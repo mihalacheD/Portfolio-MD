@@ -95,6 +95,7 @@ body {
 @theme {
   --color-primary: #08081c;
   --color-secondary: #7c44e2;
+  --color-secondaryB: #B244E3;
   --color-white: #f1f1f1;
   --color-gray: #b0b0b0;
   --color-hover: #a78bfa;
@@ -123,6 +124,10 @@ body {
   .btn:active {
     transform: scale(0.97);
     box-shadow: 0 3px 10px rgba(127, 90, 240, 0.4);
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-secondary to-secondaryB text-transparent bg-clip-text;
   }
 }
 

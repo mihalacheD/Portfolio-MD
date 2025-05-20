@@ -5,7 +5,7 @@ import image from "../../public/vite.svg";
 
 export default function Hero() {
   return (
-    <section className="relative content-center min-h-screen px-8 py-16  bg-primary text-white overflow-hidden">
+    <section className="relative content-center min-h-screen px-8 py-16 mt-8 bg-primary text-white overflow-hidden">
       {/* Blob background */}
       <div className="absolute w-[20rem] h-[20rem] bg-secondary opacity-15 blur-3xl rounded-full animate-slowMove z-0 top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
 
@@ -13,7 +13,7 @@ export default function Hero() {
         {/* Left content */}
         <div className="text-center md:text-left flex-1">
           <motion.h1
-            className="text-4xl md:text-7xl font-extrabold mb-4 tracking-tight font-primary"
+            className="text-4xl md:text-7xl font-extrabold mb-8 tracking-tight font-primary"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
@@ -31,7 +31,7 @@ export default function Hero() {
           </motion.h2>
 
           <motion.p
-            className="text-lg md:text-xl max-w-xl mb-10 text-gray-300 mx-auto md:mx-0"
+            className="text-lg md:text-xl max-w-xl mb-10 text-gray-300 mx-auto md:mx-0 font-secondary"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
