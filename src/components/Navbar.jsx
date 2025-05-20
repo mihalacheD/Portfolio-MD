@@ -12,9 +12,9 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-black bg-opacity-80 backdrop-blur-md border-b border-gray-800">
+    <header className="fixed top-0 left-0 w-full z-50 bg-primary  bg-opacity-80 backdrop-blur-md border-b border-gray-800">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold text-accent">Mihalache Daniela</h1>
+        <h1 className="text-xl font-bold text-gray-300 ">Mihalache Daniela</h1>
 
         <div className="hidden md:flex gap-8">
           {links.map((link) => (

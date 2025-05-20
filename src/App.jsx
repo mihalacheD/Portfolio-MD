@@ -5,7 +5,7 @@ function App() {
   return (
         <>
       <Navbar />
-      <main className="pt-20" id="home"> {/* spațiu pentru navbar */}
+      <main id="home"> {/* spațiu pentru navbar */}
         <Hero />
       </main>
     </>

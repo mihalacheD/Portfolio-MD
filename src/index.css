@@ -4,14 +4,151 @@ html {
   scroll-behavior: smooth;
 }
 
+@layer base {
+  h1 {
+    font-family: var(--font-primary);
+  }
+
+  h2, h3, h4, h5, h6, p {
+    font-family: var(--font-secondary);
+  }
+}
+
 body {
-  @apply bg-black text-white font-sans;
-   @apply font-sans bg-black text-white;
-      font-family: 'Inter', sans-serif;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+}
+
+/* Variabile CSS pentru culori și fonturi */
+@theme {
+  --color-primary: #08081c;
+  --color-secondary: #7f5af0;
+  --color-white: #f1f1f1;
+  --color-gray: #b0b0b0;
+  --color-hover: #a78bfa;
+  --color-border: #1f1f1f;
+
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "DM Sans", sans-serif;
 }
 
 
-/* Adaugă o clasă globală dacă vrei accent color */
-:root {
-  --accent: #00ffe5;
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-xl border transition font-medium transform duration-200 ease-in-out;
+    border-color: var(--color-secondary);
+    color: var(--color-white);
+    box-shadow: 0 4px 15px rgba(127, 90, 240, 0.3); /* light purple shadow */
+  }
+
+  .btn:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(127, 90, 240, 0.5);
+  }
+
+  .btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 10px rgba(127, 90, 240, 0.4);
+  }
+}
+
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+
+  @keyframes slowMove {
+    0%, 100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.15);
+    }
+  }
+
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  h1 {
+    font-family: var(--font-primary);
+  }
+
+  h2, h3, h4, h5, h6, p {
+    font-family: var(--font-secondary);
+  }
+}
+
+body {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-secondary);
+}
+
+/* Variabile CSS pentru culori și fonturi */
+@theme {
+  --color-primary: #08081c;
+  --color-secondary: #7c44e2;
+  --color-white: #f1f1f1;
+  --color-gray: #b0b0b0;
+  --color-hover: #a78bfa;
+  --color-border: #1f1f1f;
+
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "DM Sans", sans-serif;
+}
+
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-xl border transition font-medium transform duration-200 ease-in-out;
+    border-color: var(--color-secondary);
+    color: var(--color-white);
+    box-shadow: 0 4px 15px rgba(127, 90, 240, 0.3); /* light purple shadow */
+  }
+
+  .btn:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(127, 90, 240, 0.5);
+  }
+
+  .btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 3px 10px rgba(127, 90, 240, 0.4);
+  }
+}
+
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}
+
+  @keyframes slowMove {
+    0%, 100% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.15);
+    }
+  }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.float {
+  animation: float 6s ease-in-out infinite;
 }
