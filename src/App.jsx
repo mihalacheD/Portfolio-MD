@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
-import About from "./sections/About";
 import Hero from "./sections/Hero";
+import About from "./sections/About";
+import Projects from "./sections/Projects";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <main id="home"> {/* spațiu pentru navbar */}
         <Hero />
         <About/>
+        <Projects/>
       </main>
     </>
   );
