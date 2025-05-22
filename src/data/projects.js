@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Vintage Flavour",
     description: "Website for browse and create recipes, built with Next.js and Prisma.",
-    image: "projects/vintage.png",
+    image: "/projects/vintage.png",
     github: "https://github.com/mihalacheD/Vintage-Flavour",
     demo: "https://vintage-flavours.vercel.app/",
     techStack: ["Next.js", "Prisma", "Tailwind CSS", "TypeScript"],
@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Movie Hub",
     description: "A movie browsing app featuring search and filter functionalities, developed using React and Vite.",
-    image: "projects/moviehub.png",
+    image: "/projects/moviehub.png",
     github: "https://github.com/mihalacheD/movie-hub",
     demo: "https://movie-hub-khaki-pi.vercel.app/",
     techStack: ["React", "Vite", "TypeScript", "Tailwind CSS"],
@@ -18,7 +18,7 @@ const projects = [
   {
     title: "EBeauty",
     description: "An e-commerce front-end inspired by eMAG, utilizing React and Chakra UI for a responsive design.",
-    image: "projects/ebeauty.png",
+    image: "/projects/ebeauty.png",
     github: "https://github.com/mihalacheD/EBeauty",
     demo: "https://e-beauty.vercel.app/",
     techStack: ["React", "Chakra UI", "TypeScript", "React Router"],
@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Casa Mihai",
     description: "A presentation website for a guesthouse, built with React and SCSS for styling.",
-    image: "projects/casa-mihai.png",
+    image: "/projects/casa-mihai.png",
     github: "https://github.com/mihalacheD/Casa-Mihai-project",
     demo: "https://casamihaiproject.netlify.app/acasa",
     techStack: ["React", "Vite", "SCSS", "JavaScript"],
@@ -34,14 +34,14 @@ const projects = [
     {
     title: "Vintage Flavour Database",
     description: "The database Vintage Flavour includes tables for a aplatform that allow users to login, create, edit, delete and vote a recipe",
-    image: "projects/database.png",
+    image: "/projects/database.png",
     youTube: "https://youtu.be/ocG3M9gX1-U",
     techStack: ["SQL", "database"],
   },
   {
     title: "Issue Tracker",
     description: "A web application to track and manage issues, developed with Next.js and Prisma.",
-    image: "projects/issue-tracker.png",
+    image: "/projects/issue-tracker.png",
     github: "https://github.com/mihalacheD/issue-tracker",
     demo: "https://issue-tracker-umber-one.vercel.app/",
     techStack: ["Next.js", "Prisma", "Tailwind CSS", "TypeScript"],
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Little Lemon",
     description: "A responsive website for a restaurant, created using React and styled-components.",
-    image: "projects/little-lemon.png",
+    image: "/projects/little-lemon.png",
     github: "https://github.com/mihalacheD/Little-Lemon-project",
     demo: "https://littlelemonmihalached.netlify.app/",
     techStack: ["React", "styled-components", "JavaScript"],

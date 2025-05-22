@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { SiGithub, SiLinkedin } from "react-icons/si";
-import image from "../../public/vite.svg";
+import image from '../assets/react.svg'
 
 export default function Hero() {
   return (
