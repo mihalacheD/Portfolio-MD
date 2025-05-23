@@ -14,12 +14,12 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("#home");
 
-    const handleClick = (href) => {
+  const handleClick = (href) => {
     setActiveLink(href);
     setOpen(false);
   };
 
-    useEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       // verificăm pentru fiecare secțiune dacă e vizibilă
       let current = "#home"; // default
@@ -43,11 +43,14 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-
   return (
     <header className="fixed top-0 left-0 px-8 w-full z-50 bg-primary  bg-opacity-80 backdrop-blur-md border-b border-gray-800">
       <nav className="max-w-6xl mx-auto py-4 flex items-center justify-between">
-        <h1 className="text-xl font-bold gradient-text">DM | Frontend Dev</h1>
+        <h1>
+          <a href="/" className="text-xl font-bold gradient-text">
+            DM | Frontend Dev
+          </a>
+        </h1>
 
         <div className="hidden md:flex gap-8">
           {links.map((link) => (
@@ -68,15 +71,14 @@ export default function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-white focus:outline-none text-xl"
+          className="md:hidden text-white focus:outline-none text-2xl"
           aria-label="Toggle menu"
         >
           {open ? "✕" : "☰"}
         </button>
       </nav>
 
-
-       {/* Mobile menu with animation */}
+      {/* Mobile menu with animation */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -87,7 +89,7 @@ export default function Navbar() {
             className="md:hidden bg-primary px-4 pb-6 pt-4 flex flex-col gap-4 border-b border-gray-800 shadow-lg"
           >
             {links.map((link) => (
-               <a
+              <a
                 key={link.name}
                 href={link.href}
                 onClick={() => handleClick(link.href)}
