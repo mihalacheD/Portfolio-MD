@@ -19,6 +19,10 @@ const certificates = [
     name: "React Native - Udemy",
     link: "/certificates/react-native.pdf",
   },
+    {
+    name: "React Native Advanced - Code With Mosh",
+    link: "/certificates/react-native-advance.pdf",
+  },
   {
     name: "The Ultimate Git Course - Code with Mosh",
     link: "/certificates/git.pdf",
