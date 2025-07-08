@@ -36,7 +36,7 @@ export default function Hero() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Frontend development with React, Next.js, TypeScript, and Tailwind
+            Frontend development with React.js, React Native, Next.js, TypeScript, and Tailwind
             CSS. Clean code, responsive design, and seamless user experience.
           </motion.p>
 

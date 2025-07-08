@@ -1,7 +1,17 @@
 const projects = [
   {
+    title: "SmartHR",
+    description:
+      "SmartHR is a modern React Native mobile app designed to simplify HR processes",
+    image: "/projects/smarthr.png",
+    github: "https://github.com/mihalacheD/Smart-HR",
+    youTube: "https://youtu.be/UlUlA6Ow_5A",
+    techStack: ["React Native", "Expo", "Firebase", "TypeScript"],
+  },
+  {
     title: "Vintage Flavour",
-    description: "Website for browse and create recipes, built with Next.js and Prisma.",
+    description:
+      "Website for browse and create recipes, built with Next.js and Prisma.",
     image: "/projects/vintage.png",
     github: "https://github.com/mihalacheD/Vintage-Flavour",
     demo: "https://vintage-flavours.vercel.app/",
@@ -9,7 +19,8 @@ const projects = [
   },
   {
     title: "Movie Hub",
-    description: "A movie browsing app featuring search and filter functionalities, developed using React and Vite.",
+    description:
+      "A movie browsing app featuring search and filter functionalities, developed using React and Vite.",
     image: "/projects/moviehub.png",
     github: "https://github.com/mihalacheD/movie-hub",
     demo: "https://movie-hub-khaki-pi.vercel.app/",
@@ -17,7 +28,8 @@ const projects = [
   },
   {
     title: "EBeauty",
-    description: "An e-commerce front-end inspired by eMAG, utilizing React and Chakra UI for a responsive design.",
+    description:
+      "An e-commerce front-end inspired by eMAG, utilizing React and Chakra UI for a responsive design.",
     image: "/projects/ebeauty.png",
     github: "https://github.com/mihalacheD/EBeauty",
     demo: "https://e-beauty.vercel.app/",
@@ -25,22 +37,25 @@ const projects = [
   },
   {
     title: "Casa Mihai",
-    description: "A presentation website for a guesthouse, built with React and SCSS for styling.",
+    description:
+      "A presentation website for a guesthouse, built with React and SCSS for styling.",
     image: "/projects/casa-mihai.png",
     github: "https://github.com/mihalacheD/Casa-Mihai-project",
     demo: "https://casamihaiproject.netlify.app/acasa",
     techStack: ["React", "Vite", "SCSS", "JavaScript"],
   },
-    {
+  {
     title: "Vintage Flavour Database",
-    description: "The database Vintage Flavour includes tables for a aplatform that allow users to login, create, edit, delete and vote a recipe",
+    description:
+      "The database Vintage Flavour includes tables for a aplatform that allow users to login, create, edit, delete and vote a recipe",
     image: "/projects/database.png",
     youTube: "https://youtu.be/ocG3M9gX1-U",
     techStack: ["SQL", "database"],
   },
   {
     title: "Issue Tracker",
-    description: "A web application to track and manage issues, developed with Next.js and Prisma.",
+    description:
+      "A web application to track and manage issues, developed with Next.js and Prisma.",
     image: "/projects/issue-tracker.png",
     github: "https://github.com/mihalacheD/issue-tracker",
     demo: "https://issue-tracker-umber-one.vercel.app/",
@@ -48,11 +63,12 @@ const projects = [
   },
   {
     title: "Little Lemon",
-    description: "A responsive website for a restaurant, created using React and styled-components.",
+    description:
+      "A responsive website for a restaurant, created using React and styled-components.",
     image: "/projects/little-lemon.png",
     github: "https://github.com/mihalacheD/Little-Lemon-project",
     demo: "https://littlelemonmihalached.netlify.app/",
     techStack: ["React", "styled-components", "JavaScript"],
   },
 ];
- export default projects;
+export default projects;
