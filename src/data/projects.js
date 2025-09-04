@@ -1,4 +1,12 @@
 const projects = [
+    {
+    title: "Casa Mihai",
+    description:
+      "A website for a guesthouse, built with React, Tailwind and Typescript",
+    image: "/projects/casa-mihai.png",
+    site: "https://casa-mihai.ro",
+    techStack: ["React", "Tailwind CSS", "TypeScript", "JavaScript"],
+  },
   {
     title: "SmartHR",
     description:
@@ -34,15 +42,6 @@ const projects = [
     github: "https://github.com/mihalacheD/EBeauty",
     demo: "https://e-beauty.vercel.app/",
     techStack: ["React", "Chakra UI", "TypeScript", "React Router"],
-  },
-  {
-    title: "Casa Mihai",
-    description:
-      "A presentation website for a guesthouse, built with React and SCSS for styling.",
-    image: "/projects/casa-mihai.png",
-    github: "https://github.com/mihalacheD/Casa-Mihai-project",
-    demo: "https://casamihaiproject.netlify.app/acasa",
-    techStack: ["React", "Vite", "SCSS", "JavaScript"],
   },
   {
     title: "Vintage Flavour Database",
