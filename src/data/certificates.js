@@ -7,6 +7,10 @@ const certificates = [
     name: "CS50's Introduction to Databases with SQL-CS50 CambridgeX",
     link: "/certificates/sql.pdf",
   },
+    {
+    name: "AI-Powered Fullstack Next.js App - FrontedMasters",
+    link: "/certificates/ai-frontendmasters.pdf",
+  },
   {
     name: "Next.js - Code with Mosh",
     link: "/certificates/next.pdf",
