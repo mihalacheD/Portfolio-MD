@@ -12,6 +12,10 @@ const certificates = [
     link: "/certificates/ai-frontendmasters.pdf",
   },
   {
+    name: "Practical Prompt Engineering - FrontedMasters",
+    link: "/certificates/prompt-engineering.pdf"
+  },
+  {
     name: "Next.js - Code with Mosh",
     link: "/certificates/next.pdf",
   },

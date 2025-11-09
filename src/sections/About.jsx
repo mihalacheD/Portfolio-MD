@@ -23,24 +23,31 @@ export default function About() {
           {/* Descriere */}
           <article className="md:w-1/2 space-y-6 hover:bg-gray-800 transition rounded-lg p-4">
             <p className="text-gray-300 leading-relaxed text-lg tracking-wide">
-              I'm a frontend developer focused on building modern, responsive
-              web applications using React, Next.js, TypeScript, and Tailwind
-              CSS.
+              I’m a <strong>frontend developer</strong> who loves turning ideas into clean,
+              responsive, and meaningful digital experiences.
             </p>
             <p className="text-gray-300 leading-relaxed text-lg tracking-wide">
-              I care about clean code, accessible design, and continuous
-              improvement. Beyond the web, I’m also exploring mobile development
-              with React Native — expanding my skills to craft cross-platform
-              experiences.
+              My main tools are <strong>React, Next.js, TypeScript, and Tailwind CSS</strong>,
+              but what truly drives me is crafting interfaces that feel
+              intuitive and alive.
             </p>
             <p className="text-gray-300 leading-relaxed text-lg tracking-wide">
-              To support my growth, I’ve completed certifications from platforms
-              like Meta, Harvard, and Codecademy, combining theory with
-              real-world application.
+              Over time, I’ve expanded my skills beyond the frontend — exploring
+              <strong>AI-powered fullstack apps, prompt engineering, and mobile
+              development with React Native.</strong> This blend of creativity and
+              technology helps me build solutions that not only look good but
+              also solve real problems efficiently.
             </p>
             <p className="text-gray-300 leading-relaxed text-lg tracking-wide">
-              I'm driven by curiosity, always learning, and committed to
-              becoming a better developer with every project.
+              To strengthen my foundation, I’ve completed certifications from
+              top institutions like <strong>Meta, Harvard (CS50), FrontendMasters,
+              Codecademy, and Udemy,</strong> covering everything from databases and Git
+              to advanced React and TypeScript.
+            </p>
+            <p className="text-gray-300 leading-relaxed text-lg tracking-wide">
+              I’m constantly learning, experimenting, and refining my craft —
+              because for me, every project is a chance to grow and create
+              something smarter, faster, and better.
             </p>
           </article>
 
