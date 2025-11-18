@@ -19,6 +19,10 @@ const certificates = [
     name: "Next.js - Code with Mosh",
     link: "/certificates/next.pdf",
   },
+    {
+    name: "State management at Scale in React & Next.js",
+    link: "/certificates/react-nextjs-state-dark.pdf",
+  },
   {
     name: "React 18 - Code with Mosh",
     link: "/certificates/react-2.pdf",
