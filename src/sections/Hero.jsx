@@ -50,7 +50,7 @@ export default function Hero() {
               View Projects
             </a>
             <a
-              href="/assets/Daniela_Mihalache_Frontend_Developer.pdf"
+              href="/assets/Resume-Mihalache-Daniela-Frontend-Developer.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn"
